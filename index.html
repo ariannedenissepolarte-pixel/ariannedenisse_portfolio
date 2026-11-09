@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arianne Denisse Olarte's personal portfolio, projects, skills, and webinar certificates.">
+  <title>Arianne Denisse Olarte | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Aryan<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- The first screen introduces you with your photo and about information. -->
+    <section class="hero container" id="home">
+      <div class="hero-photo-wrap">
+        <!-- Replace assets/profile.jpg with your own portrait. -->
+        <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Arianne Denisse Olarte"
+             onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+        <div class="photo-placeholder" hidden>
+          <span class="placeholder-icon">＋</span>
+          <strong>Add your photo</strong>
+          <small>Place your portrait at assets/profile.jpg</small>
+        </div>
+        <span class="photo-accent"></span>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PERSONAL PORTFOLIO</p>
+        <h1>Hi, I'm <span>Arianne Denisse Olarte.</span></h1>
+        <p class="role">Student <span>·</span> Creative Learner <span>·</span> Aspiring Web Developer</p>
+        <h2 class="about-heading">A little about me</h2>
+        <p class="intro">I’m a student who enjoys learning new things, exploring technology, and creating websites. I’m continuously building my skills, taking on new challenges, and working toward becoming a successful web developer.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work <span>↗</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Always learning. Always creating.</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I BRING</p>
+          <h2>My <span>Skills</span></h2>
+          <p>Tools and strengths I’m developing through practice and projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">〈〉</div><h3>HTML</h3><p>Building clear, structured web pages.</p></article>
+          <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon">✳</div><h3>CSS</h3><p>Creating responsive layouts and visual styles.</p></article>
+          <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Adding interaction and useful functionality.</p></article>
+          <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon">✦</div><h3>Creativity</h3><p>Exploring ideas and solving problems.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">THINGS I'VE WORKED ON</p>
+          <h2>Featured <span>Projects</span></h2>
+          <p>A selection of work and experiments from my learning journey.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-tag">WEB DEVELOPMENT</span><span class="project-arrow">↗</span></div>
+            <div class="project-art art-one"><span>AO.</span></div>
+            <h3>Personal Portfolio</h3>
+            <p>My personal website, built with HTML, CSS, and JavaScript to introduce myself and showcase my work.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-tag">UPCOMING</span><span class="project-arrow">✳</span></div>
+            <div class="project-art art-two"><span>01</span></div>
+            <h3>More projects coming</h3>
+            <p>This space is ready for another project as I continue learning and creating.</p>
+            <div class="tag-list"><span>In progress</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="certificates">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LEARNING & GROWTH</p>
+          <h2>Webinar <span>Certificates</span></h2>
+          <p>Webinars, seminars, and learning experiences I’ve completed.</p>
+        </div>
+        <div class="certificates-grid">
+          <!-- Duplicate this certificate card for each webinar certificate. -->
+          <article class="certificate-card">
+            <a class="certificate-image-link" href="assets/networking-basics-certificate.jpg" target="_blank" rel="noopener" aria-label="View Networking Basics certificate">
+              <div class="certificate-preview certificate-image-preview">
+                <img src="assets/networking-basics-certificate.jpg" alt="Networking Basics certificate from Cisco Networking Academy awarded to Arianne Denisse Olarte on May 28, 2026">
+              </div>
+            </a>
+            <div class="certificate-info"><p class="certificate-type">COURSE CERTIFICATE</p><h3>Networking Basics</h3><p class="certificate-meta">Cisco Networking Academy · May 28, 2026</p><a class="certificate-link" href="assets/networking-basics-certificate.jpg" target="_blank" rel="noopener">View certificate <span>↗</span></a></div>
+          </article>
+          <article class="certificate-card certificate-add">
+            <div class="add-mark">＋</div><h3>Your next certificate</h3><p>Duplicate a certificate card in index.html and add its details and image.</p>
+          </article>
+        </div>
+        <p class="section-hint">Tip: add certificate images to the <code>assets</code> folder and use them in each certificate preview.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have an idea or opportunity?</h2><p>I’d be glad to hear from you.</p></div>
+        <a class="button button-light" href="mailto:YOUR_EMAIL@gmail.com">Send me an email <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">Aryan<span>.</span></a><p>© <span id="year">2026</span> Arianne Denisse Olarte. Made with care.</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
